@@ -32,12 +32,9 @@ The repository evaluates three detector families:
 
 ### 1. Classical projected gradient descent
 
-The first direction implements iterative projected gradient descent
-(PGD) for MIMO detection:
+The first direction implements iterative projected gradient descent (PGD) for MIMO detection:
 
-$$
-\mathbf{x}_{k+1} = \operatorname{Proj} \left( \mathbf{x}_{k} + \delta \mathbf{H}^{H} \left( \mathbf{y} - \mathbf{H}\mathbf{x}_{k} \right) \right)
-$$
+x_(k+1) = Proj(x_k + δ Hᴴ(y − Hx_k))
 
 Three projection strategies are investigated:
 
